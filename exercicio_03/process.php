@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
-    $num1 = $_POST=["num1"];
+    $num1 = $_POST["num1"];
     $num2 = $_POST["num2"];
     $operation = $_POST["operation"];
     $result = 0;
@@ -29,5 +29,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     echo "<h2>Resultado:</h2>";
     echo "<p>O resultado da operação é: $result</p>";
 } else {
-    echo "Erro ao processar o formulário."
+    echo "Erro ao processar o formulário.";
 } ?>
