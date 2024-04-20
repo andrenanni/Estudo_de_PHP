@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+table{
+    font-size: 20px;
+    color: white;
+    border: 3px solid rgb(48, 48, 48);
+    text-align: center;
+}
+
+.vermelho{
+    padding: 20px;
+    background-color: rgb(105, 105, 105);
+}
+
+.azul{
+    background-color: rgb(168, 168, 168);
+}
+
+th{
+    color:white;
+}
+
+tr{
+    padding: 10px;
+}
