@@ -1,5 +1,5 @@
 <?php
-    include("conexao.php");
+    include("conn.php");
     $consulta_SQL = "SELECT A.NOME AS ALUNO,
                             D.NOME AS DISCIPLINA,
                             N.NOTA1 AS NOTA1,
